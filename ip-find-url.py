@@ -94,8 +94,8 @@ def start_jobs(data, num):
         j.join()  # 等待线程退出
 def main():
     if len(sys.argv) != 3:  # 判断输入长度是否合格
-        print('Usage: python3 shiro-NC-cpy.py -h 10.10.10.10')
-        print('Usage: python3 shiro-NC-cpy.py -r ip.txt')
+        print('Usage: python3 ip-find-url.py -h 10.10.10.10')
+        print('Usage: python3 ip-find-url.py -r ip.txt')
         return
     a = str(sys.argv[1])  # 输入类型
     if a == '-h':
